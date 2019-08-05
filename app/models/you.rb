@@ -1,0 +1,2 @@
+class You < ApplicationRecord
+end
