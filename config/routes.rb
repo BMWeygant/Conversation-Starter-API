@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :you, only: [:index, :create, :show]
   resources :target, only: [:index, :create, :show]
   resources :convo, only: [:index, :create, :show]
+
 end
