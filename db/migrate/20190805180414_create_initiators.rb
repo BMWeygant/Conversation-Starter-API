@@ -1,6 +1,6 @@
-class CreateYous < ActiveRecord::Migration[5.2]
+class CreateInitiators < ActiveRecord::Migration[5.2]
   def change
-    create_table :yous do |t|
+    create_table :initiators do |t|
       t.string :gender
       t.string :swag
       t.integer :conscience

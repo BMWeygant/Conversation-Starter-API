@@ -1,2 +1,0 @@
-class You < ApplicationRecord
-end

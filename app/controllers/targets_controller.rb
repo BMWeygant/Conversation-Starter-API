@@ -1,4 +1,4 @@
-class TargetController < ApplicationController
+class TargetsController < ApplicationController
     def create
         target = Target.new(target_params)
         render json: target

@@ -1,4 +1,4 @@
-class ConvoController < ApplicationController
+class ConvosController < ApplicationController
     def create
         convo = Convo.new(convo_params)
         render json: convo
