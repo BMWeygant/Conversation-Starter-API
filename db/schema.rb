@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 2019_08_05_180701) do
     t.string "topic"
     t.string "location"
     t.string "conscience"
-    t.boolean "romantic_interest"
     t.string "ice_breaker"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

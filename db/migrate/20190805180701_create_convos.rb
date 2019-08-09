@@ -9,7 +9,6 @@ class CreateConvos < ActiveRecord::Migration[5.2]
       t.string :topic
       t.string :location
       t.string :conscience
-      t.boolean :romantic_interest
       t.string :ice_breaker
 
       t.timestamps
