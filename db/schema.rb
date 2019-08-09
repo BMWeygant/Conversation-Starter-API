@@ -13,28 +13,16 @@
 ActiveRecord::Schema.define(version: 2019_08_05_180701) do
 
   create_table "convos", force: :cascade do |t|
+    t.string "initiator_gender"
+    t.string "initiator_swag"
+    t.string "target_gender"
+    t.string "target_approachability"
+    t.string "relationship"
     t.string "topic"
     t.string "location"
-    t.boolean "witnesses"
-    t.string "ice_breaker"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "initiators", force: :cascade do |t|
-    t.string "gender"
-    t.string "swag"
-    t.integer "conscience"
+    t.string "conscience"
     t.boolean "romantic_interest"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "targets", force: :cascade do |t|
-    t.string "gender"
-    t.string "swag"
-    t.string "relationship"
-    t.string "appearance"
+    t.string "ice_breaker"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
