@@ -16,6 +16,6 @@ class ConvosController < ApplicationController
     
       private
         def convo_params
-          params.require(:convo).permit(:topic, :location, :witnesses, :ice_breaker)
+          params.require(:convo).permit(:initiator_gender, :initiator_swag, :target_gender, :target_approachability, :relationship, :topic, :location, :conscience, :ice_breaker)
         end
 end
