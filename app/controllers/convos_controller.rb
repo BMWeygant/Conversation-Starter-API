@@ -1,5 +1,11 @@
 class ConvosController < ApplicationController
-    def create
+      
+      def index
+        @convos = Convo.all
+        render json: @convos
+      end
+  
+      def create
         convo = Convo.new(convo_params)
         render json: convo
       end
@@ -9,13 +15,8 @@ class ConvosController < ApplicationController
         render json: convo
       end
     
-      def index
-        convos = Convo.all
-        render json: convos
-      end
-    
       private
-        def convo_params
-          params.require(:convo).permit(:initiator_gender, :initiator_swag, :target_gender, :target_approachability, :relationship, :topic, :location, :conscience, :ice_breaker)
-        end
+      def convo_params
+        params.require(:convo).permit(:initiator_gender, :initiator_swag, :target_gender, :target_approachability, :relationship, :topic, :location, :conscience, :ice_breaker)
+      end
 end
