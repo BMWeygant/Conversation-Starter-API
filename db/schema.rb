@@ -13,14 +13,9 @@
 ActiveRecord::Schema.define(version: 2019_08_05_180701) do
 
   create_table "convos", force: :cascade do |t|
-    t.string "initiator_gender"
-    t.string "initiator_swag"
-    t.string "target_gender"
     t.string "target_approachability"
     t.string "relationship"
-    t.string "topic"
     t.string "location"
-    t.string "conscience"
     t.string "ice_breaker"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
