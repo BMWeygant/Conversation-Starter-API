@@ -1,10 +1,10 @@
 class CreateConvos < ActiveRecord::Migration[5.2]
   def change
     create_table :convos do |t|
-      t.string :target_approachability
+      t.string :approachability
       t.string :relationship
       t.string :location
-      t.string :ice_breaker
+      t.string :quote
 
       t.timestamps
     end
