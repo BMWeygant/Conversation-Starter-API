@@ -13,10 +13,10 @@
 ActiveRecord::Schema.define(version: 2019_08_05_180701) do
 
   create_table "convos", force: :cascade do |t|
-    t.string "target_approachability"
+    t.string "approachability"
     t.string "relationship"
     t.string "location"
-    t.string "ice_breaker"
+    t.string "quote"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
