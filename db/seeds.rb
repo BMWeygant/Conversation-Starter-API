@@ -6,8 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Convo.create(target_approachability: 'very high', relationship: 'close family', location: 'home', ice_breaker: '')
-# Convo.create(target_approachability: 'high', relationship: 'boss', location: 'work', ice_breaker: '')
-# Convo.create(target_approachability: 'average', relationship: 'acquaintance', location: 'store', ice_breaker: '')
-# Convo.create(target_approachability: 'low', relationship: 'none', location: 'recreational', ice_breaker: '')
-# Convo.create(target_approachability: 'very low', relationship: 'freind', location: 'friends house', ice_breaker: '')
+#Convo.create(approachability: ' ', relationship: ' ', location: ' ', ice_breaker: ' ')
+
+
+Quote.create(line: "Just say hi and introduce yourself. You'd be amazed what a basic confident can do for you.")
+Quote.create(line: "Ahh, hard to approach family is always tricky. I'd recommend a straightforward approach with little fluff. Try 'You coming to the [event] on [date]?'")
+Quote.create(line: "Who the hell has a professional relationship in school? Try talking about Power Rangers or dinosaurs or whatever kids these days talk about. I can't do everything for you you know.")
+Quote.create(line: 'This is just placeholder text. I currently am working on advice for this combination of circumstances.')
+

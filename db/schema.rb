@@ -10,13 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_05_180701) do
+ActiveRecord::Schema.define(version: 2019_08_20_110128) do
 
   create_table "convos", force: :cascade do |t|
     t.string "approachability"
     t.string "relationship"
     t.string "location"
-    t.string "quote"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "quotes", force: :cascade do |t|
+    t.string "line"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

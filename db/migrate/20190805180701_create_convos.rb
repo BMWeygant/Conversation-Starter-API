@@ -4,7 +4,6 @@ class CreateConvos < ActiveRecord::Migration[5.2]
       t.string :approachability
       t.string :relationship
       t.string :location
-      t.string :quote
 
       t.timestamps
     end
