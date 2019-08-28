@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   resources :quotes, only: [:index, :create, :show]
 
+  resources :comments, only: [:index, :create, :show]
+
 end

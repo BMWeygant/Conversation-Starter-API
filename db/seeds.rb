@@ -13,3 +13,4 @@ Quote.create(line: "Just say hi and introduce yourself. You'd be amazed what a b
 Quote.create(line: "Ahh, hard to approach family is always tricky. I'd recommend a straightforward approach with little fluff. Try 'You coming to the [event] on [date]?'")
 Quote.create(line: "Who the hell has a professional relationship in school? Try talking about Power Rangers or dinosaurs or whatever kids these days talk about. I can't do everything for you you know.")
 
+Comment.create(name: "Me", content: "JuSt SaY hI! OMG this guy is so trash")

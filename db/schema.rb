@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_20_110128) do
+ActiveRecord::Schema.define(version: 2019_08_23_010732) do
+
+  create_table "comments", force: :cascade do |t|
+    t.string "name"
+    t.string "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "convos", force: :cascade do |t|
     t.string "approachability"
