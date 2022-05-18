@@ -18,7 +18,7 @@ gem 'puma', '~> 3.11'
 gem 'rack-cors'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-gem "nokogiri", "~> 1.10.4"
+gem "nokogiri", "~> 1.13.5"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
